@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API Mercado Libre</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <script async src="./index.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-content">
+        <form class="search-form">
+          <input
+            name="search"
+            type="text"
+            class="search-input"
+            placeholder="Buscar productos, marcas y más..."
+          />
+          <button class="search-button">Buscar</button>
+        </form>
+      </div>
+    </header>
+
+    <div class="container">
+      <h3 class="results-title">
+        Resultados: <span class="results-count"></span>
+      </h3>
+
+      <div class="results"></div>
+    </div>
+
+    <template id="result-item-div">
+      <div class="result-item">
+        <img src="" alt="" class="result-item-img" />
+        <div class="result-item-subcontainer-content">
+          <h4 class="result-item-title"></h4>
+          <p class="result-item-condition"></p>
+          <p class="result-item-sold-quantity">
+            Vendidos: <span class="sold-quantity"></span>
+          </p>
+        </div>
+        <div class="result-item-subcontainer-price-stock">
+          <div class="result-item-price"></div>
+          <p class="result-item-stock">Stock: <span class="stock-counter"></span></p>
+        </div>
+      </div>
+    </template>
+  </body>
+</html>
