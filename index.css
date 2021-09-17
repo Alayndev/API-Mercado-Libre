@@ -70,6 +70,10 @@ body {
   box-shadow: 1px 0px 12px -5px rgb(0 0 0 / 30%);
 }
 
+.result-item:hover {
+  box-shadow: 12px 12px 12px -5px rgb(0 0 0 / 30%);
+}
+
 .result-item-img {
   max-height: 100px;
   max-width: 100px;
