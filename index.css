@@ -10,8 +10,8 @@ body {
 }
 
 .header {
-  background-color: #fff159;
-  padding: 15px 0;
+  background-color: #2c2c2c;
+  padding: 15px 5px;
 }
 
 .header-content {
@@ -33,11 +33,22 @@ body {
 .search-input {
   flex-grow: 1;
   font-family: "Roboto", sans-serif;
+  padding: 15px;
+  border-radius: 26px;
+  background-color: #2c2c2c;
+  color: white;
+}
+
+.search-input:focus {
+  outline: none;
 }
 
 .search-button {
   padding: 12px 35px;
   font-family: "Roboto", sans-serif;
+  border-radius: 26px;
+  background-color: #4efed4;
+  font-weight: bold;
 }
 
 .container {
